@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.daba-nav{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    font-weight:400;
+    margin-left:50px;
+    margin-top: 40px;
+    
+    
+}
+
+.navlist{
+    display:flex;
+    gap:1rem;
+    height:24px;
+    align-items: center;
+    margin-right: 100px;;
+}
+
+.btn{
+   background: #8D6CFA;
+   border:none;
+   border-radius:100px;
+   padding:10px
+   
+
+}
+
+.link{
+    text-decoration: none;
+    
+}
+
+.btn-link{
+    text-decoration: none;
+    
+}
