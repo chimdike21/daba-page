@@ -4,6 +4,14 @@
     box-sizing:border-box;
 }
 
+li{
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
 .daba-nav{
     width:100%;
     display:flex;
@@ -21,22 +29,46 @@
     gap:1rem;
     height:24px;
     align-items: center;
-    margin-right: 100px;;
+    margin-right: 100px;
 }
 
-.btn{
-   background: #8D6CFA;
-   border:none;
-   border-radius:100px;
-   padding:10px
-   
+.navlist>a{
+    color: #16054E;
+    position:relative;
+    padding:0.75rem 1.5rem;
 
 }
 
-.link{
-    text-decoration: none;
-    
+.navlist>a::after{
+    content:"";
+    position:absolute;
+    width:0%;
+    height:3px;
+    background-color:#16054E;
+    bottom:5px;
+    left:50%;
+    transform:translateX(-50%);
+    transition:0.3s ease;
 }
+.navlist>a:hover::after{
+    width:70%;
+  
+}
+
+.join-waitlist{
+    background-color: #8D6CFA;
+    color:white;
+    cursor:pointer;
+    padding: 16px 40px 16px 40px;
+    border-radius: 100px;
+
+}
+
+.join-waitlist:hover{
+    transform:scale(1.1);
+}
+
+
 
 .btn-link{
     text-decoration: none;
