@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
+}
+
+html{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;;
 }
 
 li{
@@ -10,6 +17,7 @@ li{
 
 a{
     text-decoration:none;
+    font:inherit;
 }
 
 .daba-nav{
