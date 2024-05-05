@@ -20,6 +20,13 @@ a{
     font:inherit;
 }
 
+h1{
+    font-weight:700;
+    font-size:48px;
+    line-height: 64px;
+}
+
+
 .daba-nav{
     width:100%;
     display:flex;
@@ -81,4 +88,26 @@ a{
 .btn-link{
     text-decoration: none;
     
+}
+
+.smart{
+    color:#8D6CFA;
+}
+
+.heading{
+    margin-top:243px;
+    margin-left:100px;
+    display:inline-block;
+    width:580px;
+    height:512px;
+}
+
+.para{
+    height:120px;
+    width:580px;
+    font-weight: 400;
+    font-size:24px;
+    line-height: 40px;
+    color:#8b82a7;
+    margin-top:23px;
 }
