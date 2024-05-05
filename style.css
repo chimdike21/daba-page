@@ -11,6 +11,10 @@ html{
     font-weight: 600;;
 }
 
+body{
+    background-color:#f8f8fd;
+}
+
 li{
     list-style:none;
 }
@@ -24,6 +28,10 @@ h1{
     font-weight:700;
     font-size:48px;
     line-height: 64px;
+}
+
+form{
+    margin-top: 80px;
 }
 
 
@@ -111,3 +119,27 @@ h1{
     color:#8b82a7;
     margin-top:23px;
 }
+
+#email{
+    border-radius:8px;
+    height:56px;
+    width:403px;
+    border:1px 1px 1px 1px;
+    border-color: #ded7f6;
+    color:#ffffff;
+    text-align:center;
+}
+
+.buttn{
+    border-radius: 32px;
+    gap:10px;
+    padding:16px 40px 16px 40px;
+    background-color:#8D6CFA;
+    border:none;
+    width:hug(161px);
+    height:hug(56px);
+    margin-left:19px;
+    color:#ffffff;
+    font-size:14px;
+}
+
