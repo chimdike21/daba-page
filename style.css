@@ -28,6 +28,7 @@ h1{
     font-weight:700;
     font-size:48px;
     line-height: 64px;
+    color:#16054e;
 }
 
 form{
@@ -143,3 +144,33 @@ form{
     font-size:14px;
 }
 
+.ellipse{
+    border-radius: 50%;
+    float:right;
+    width:531px;
+    height:531px;
+    margin-top:210px;
+    margin-right:200px;
+    background-image: linear-gradient(to bottom, #eee9ff 0%, #8d6df9 100%);
+}
+
+.flyphone{
+    width:585px;
+    height:607px;
+    top:196px;
+}
+
+.core{
+    margin-top:200px;
+    width:902px;
+    height:72px;
+    margin-left:350px;
+    
+    
+}
+
+.core>h1{
+    font-size:48px;
+    text-align:center;
+    line-height:72px;
+}
