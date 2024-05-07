@@ -142,6 +142,12 @@ form{
     margin-left:19px;
     color:#ffffff;
     font-size:14px;
+    transition:opacity 0.3s;
+}
+
+.buttn:hover{
+    cursor:pointer;
+    opacity: 0.7;
 }
 
 .ellipse{
@@ -174,3 +180,37 @@ form{
     text-align:center;
     line-height:72px;
 }
+
+.d-assets{
+    width:1240px;
+    height:488px;
+    background-color: #9070f6;
+    border-radius:24px;
+    margin-top:138px;
+    margin-left:100px;
+    align:center;
+    
+}
+
+.assets-head>h1 {
+    color:#ffffff;
+    size:48px;
+    line-height: 64px;
+}
+
+.assets-head>p{
+    color:#ffffff;
+    size:24px;
+    line-height:40px;
+    
+}
+
+.assets-head{
+    width:524px;
+    height:208px;
+    display:inline-block;
+    margin-left:56px;
+    margin-top:40px
+    
+}
+
