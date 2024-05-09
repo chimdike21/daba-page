@@ -183,3 +183,26 @@ form{
     background-color:#8d6df9;
     margin-top:50px;
 }
+
+.d-assets>h1{
+    color:#ffffff;
+    font-size:48px;
+    line-height:68px;
+    font-weight:700px;
+    margin-top:140px;
+    margin-left:56px;
+}
+
+.assetsp{
+    width:482px;
+    height:120px;
+    margin-left:56px;
+    margin-top:28px;
+}
+.assetsp>p{
+    font-weight:400;
+    line-height:40px;
+    font-size:24px;
+    display:block;
+    color:#ffffff;
+}
