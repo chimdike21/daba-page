@@ -225,7 +225,8 @@ form{
 
 
 .grids{
-    display: grid;
+    display: flex;
+    gap:2rem
 }
 .portfolio{
     width:600px;
@@ -243,7 +244,7 @@ form{
     padding-top:76px;
 }
 
-.portfolio-h{
+.portfolio-h>p{
     color:#8B82A7;
     line-height:40px;
     font-size:24px;
@@ -271,5 +272,25 @@ form{
     width:600px;
     height:700px;
     border-radius:24px;
+    margin-top:76px;
     
+    
+}
+
+.investing-h > h1, p{
+    color:#ffffff;
+}
+
+.investing-h > p{
+    line-height:40px;
+    font-weight:400;
+    font-size:24px;
+
+}
+
+.investing-h{
+    width:472px;
+    height:204px;
+    margin-left:56px;
+    padding-top:76px;
 }
